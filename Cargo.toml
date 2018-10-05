@@ -4,8 +4,8 @@ version = "0.1.2"
 authors = ["Nicolas Vivet <nicolas@nzx.io>"]
 description = "Parser for the SSH protocol"
 license = "LGPL-2.1+"
-homepage = "https://github.com/rusticata/ssh-parser"
-repository = "https://github.com/rusticata/ssh-parser"
+homepage = "https://github.com/copslock/ssh-parser"
+repository = "https://github.com/copslock/ssh-parser"
 documentation = "https://docs.rs/ssh-parser"
 
 [features]
@@ -14,8 +14,8 @@ serialize = ["cookie-factory"]
 
 [dependencies]
 enum_primitive = "0.1"
-nom = { version = "^3.1.0", features = ["verbose-errors"] }
-rusticata-macros = "0.4.0"
+nom = "4.0"
+rusticata-macros = "1.0.0"
 
 cookie-factory = { version = "0.2", optional = true }
 num-bigint = { version = "0.1", optional = true }
