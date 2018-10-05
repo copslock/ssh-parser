@@ -15,7 +15,12 @@ serialize = ["cookie-factory"]
 [dependencies]
 enum_primitive = "0.1"
 nom = "^3.0"
-rusticata-macros = "1.0.0"
+# rusticata-macros = "1.0.0"
+
+[dependencies.rusticata-macros]
+# path = "../rusticata-macros"
+git = "https://github.com/copslock/rusticata-macros.git"
+
 
 cookie-factory = { version = "0.2", optional = true }
 num-bigint = { version = "0.1", optional = true }
