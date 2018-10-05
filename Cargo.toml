@@ -14,7 +14,7 @@ serialize = ["cookie-factory"]
 
 [dependencies]
 enum_primitive = "0.1"
-nom = "4.0"
+nom = "^3.0"
 rusticata-macros = "1.0.0"
 
 cookie-factory = { version = "0.2", optional = true }
